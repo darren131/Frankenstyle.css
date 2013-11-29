@@ -1,0 +1,17 @@
+// The default grid system which uses a mobile first approach
+// 
+// $total-columns - the defauls number of columns for mobile
+// $column-width - width of eac column
+// $gutter-width - space between columns
+// $grid-padding - space to the right and left of the grid
+// $tablet - set the number of columns for tablet view
+// $computer - set the breakpoint and the number of columns
+
+@import "susy";
+
+$total-columns  : 5; 
+$column-width   : 4em; 
+$gutter-width   : 1em; 
+$grid-padding   : $gutter-width;
+$tablet         : 8;
+$computer       : 55em 12;

@@ -1,0 +1,16 @@
+@import "compass";
+/*!
+Theme Name: #{wp_theme_path()}
+Theme URI: http://thefold.co.nz/
+Author: The Fold
+Author URI: http://thefold.co.nz/
+Description: The default site theme built by The Fold.
+Version: 1.0
+*/
+
+@import "global/config";
+@import "normalize"; // this is a compass extension
+@import "global/global";
+
+// Import Elements
+@import "elements/grid";
